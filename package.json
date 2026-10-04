@@ -1,0 +1,9 @@
+{
+  "name": "oussaminho-creator-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "oussaminho personal creator hub",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

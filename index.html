@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0c0d" />
+    <meta name="description" content="Oussaminho — live, social and sound in one place." />
+    <meta property="og:title" content="Oussaminho — Creator Hub" />
+    <meta property="og:description" content="Follow Oussaminho on Kick, Instagram, Discord and Spotify." />
+    <meta property="og:type" content="website" />
+    <title>Oussaminho — Creator Hub</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2353fc18'/%3E%3Cpath d='M18 17h28v8H27v8h14v8H27v8h-9V17Z' fill='%230a0c0d'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/script.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <div class="grid-noise" aria-hidden="true"></div>
+
+      <header class="topbar" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Oussaminho home">
+          <span class="brand-mark"><span>O</span><i>/</i></span>
+          <span class="brand-name">Oussaminho</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#links">Links</a>
+          <a href="#sound">Sound</a>
+          <a class="nav-kick" href="https://kick.com/oussaminho-7" target="_blank" rel="noreferrer">Watch live <span>↗</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-wrap" aria-labelledby="hero-title">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span class="live-dot"></span> Creator online <span class="eyebrow-line"></span> oussaminho-7</div>
+            <h1 id="hero-title">Stay close.<br /><span>Catch the vibe.</span></h1>
+            <p class="hero-text">Live streams, late-night playlists and the places where we keep the chat moving.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://kick.com/oussaminho-7" target="_blank" rel="noreferrer">
+                <span class="button-icon kick-icon">K</span>
+                Join me on Kick <span class="arrow">↗</span>
+              </a>
+              <a class="button button-ghost" href="#links">Find me everywhere <span class="arrow">↓</span></a>
+            </div>
+            <div class="quick-proof" aria-label="Community highlights">
+              <span><b class="pulse"></b> live energy</span>
+              <span class="proof-divider"></span>
+              <span>one link, every platform</span>
+            </div>
+          </div>
+
+          <div class="hero-art reveal reveal-delay" aria-label="Oussaminho creator badge">
+            <div class="orbit orbit-large"></div>
+            <div class="orbit orbit-small"></div>
+            <div class="hero-card">
+              <div class="hero-card-top"><span>LIVE PROFILE</span><span class="hero-signal">● 07</span></div>
+              <div class="monogram">O<span>/</span></div>
+              <div class="hero-card-bottom">
+                <div><small>CREATOR HUB</small><strong>oussaminho</strong></div>
+                <span class="corner-arrow">↗</span>
+              </div>
+            </div>
+            <span class="float-label label-top">01 / LIVE</span>
+            <span class="float-label label-bottom">NIGHT SHIFT</span>
+          </div>
+        </section>
+
+        <section id="links" class="links-section section-wrap" aria-labelledby="links-title">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-kicker">// stay connected</span>
+              <h2 id="links-title">Pick your corner.</h2>
+            </div>
+            <p>Follow along, drop into the chat, or just keep the music on.</p>
+          </div>
+
+          <div class="link-layout">
+            <a class="link-card kick-card reveal" href="https://kick.com/oussaminho-7" target="_blank" rel="noreferrer">
+              <div class="card-top"><span class="platform-tag">01 / STREAM</span><span class="external">↗</span></div>
+              <div class="platform-icon kick-large">K</div>
+              <div class="card-content"><h3>Kick</h3><p>Catch the next live session.</p></div>
+              <div class="card-foot"><span>@oussaminho-7</span><span class="card-line"></span></div>
+            </a>
+
+            <a class="link-card instagram-card reveal reveal-delay-short" href="https://instagram.com/oussaminho_7" target="_blank" rel="noreferrer">
+              <div class="card-top"><span class="platform-tag">02 / DAILY</span><span class="external">↗</span></div>
+              <div class="platform-icon instagram-large">◎</div>
+              <div class="card-content"><h3>Instagram</h3><p>Bits, moments and behind the scenes.</p></div>
+              <div class="card-foot"><span>@oussaminho_7</span><span class="card-line"></span></div>
+            </a>
+
+            <div class="link-card discord-card reveal reveal-delay-short">
+              <div class="card-top"><span class="platform-tag">03 / COMMUNITY</span><span class="external">⌁</span></div>
+              <div class="platform-icon discord-large">⌁</div>
+              <div class="card-content"><h3>Discord</h3><p>Say hi, share a thought, join the room.</p></div>
+              <button class="copy-row" id="copy-discord" type="button" data-copy="oussaminho_x7" aria-label="Copy Discord username">
+                <span id="discord-value">oussaminho_x7</span><span class="copy-action" id="copy-label">Copy <span>⧉</span></span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="sound" class="sound-section section-wrap reveal" aria-labelledby="sound-title">
+          <div class="sound-heading">
+            <span class="section-kicker">// on repeat</span>
+            <h2 id="sound-title">The night has a soundtrack.</h2>
+            <p>Press play, settle in, and let the playlist run in the background.</p>
+            <a class="text-link" href="https://open.spotify.com/playlist/2q2U47eOR0SaAgL1SdxECc?si=05cb883d1bb3435f" target="_blank" rel="noreferrer">Open playlist in Spotify <span>↗</span></a>
+          </div>
+          <div class="spotify-frame-wrap">
+            <div class="spotify-label"><span class="spotify-mark">●</span> Oussaminho radio <span class="frame-line"></span></div>
+            <iframe
+              title="Oussaminho Spotify playlist"
+              src="https://open.spotify.com/embed/playlist/2q2U47eOR0SaAgL1SdxECc?utm_source=generator&theme=0"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer section-wrap">
+        <div class="footer-brand"><span class="brand-mark small"><span>O</span><i>/</i></span><span>Oussaminho</span></div>
+        <p>Keep the signal green.</p>
+        <span class="footer-year">© <span id="year"></span></span>
+      </footer>
+      <div class="toast" id="toast" role="status" aria-live="polite">Discord username copied</div>
+    </div>
+  </body>
+</html>
